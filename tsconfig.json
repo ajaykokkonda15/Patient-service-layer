@@ -20,6 +20,16 @@
     "forceConsistentCasingInFileNames": true,
     "noImplicitAny": false,
     "strictBindCallApply": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@app/common": ["libs/common/src"],
+      "@app/common/*": ["libs/common/src/*"],
+      "@app/db": ["libs/db/src"],
+      "@app/db/*": ["libs/db/src/*"],
+      "@app/jwt": ["libs/jwt/src"],
+      "@app/jwt/*": ["libs/jwt/src/*"],
+      "@app/email": ["libs/email/src"],
+      "@app/email/*": ["libs/email/src/*"]
+    }
   }
 }
