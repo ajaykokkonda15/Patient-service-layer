@@ -4,6 +4,7 @@ const { fail } = require('../helpers/response');
 
 /**
  * Role-based access control middleware factory.
+ * Role-based access control middleware factory.
  * Usage: router.use(requireRole('admin'))
  *        router.post('/create', requireRole('admin', 'manager'), handler)
  *
